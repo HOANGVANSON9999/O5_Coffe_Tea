@@ -70,11 +70,11 @@
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#2E2E2E"
+        android:backgroundTint="#FFAD25"
         android:background="@drawable/border"
         android:text="Login"
         android:textColor="#fff"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp" />
 
     <LinearLayout
         android:layout_width="match_parent"

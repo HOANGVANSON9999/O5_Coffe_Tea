@@ -61,7 +61,7 @@ public class Dangnhap extends AppCompatActivity {
         }
 
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            edt_phone.setError("Please enter a valid email!");
+            edt_phone.setError("Please enter a valid phone!");
             edt_phone.requestFocus();
             return;
         }
