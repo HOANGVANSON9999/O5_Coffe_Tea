@@ -1,6 +1,5 @@
 package com.zerofive.coffetea;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ActivityOptions;
@@ -9,9 +8,8 @@ import android.os.Bundle;
 import android.util.Patterns;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
-public class Dangnhap extends AppCompatActivity {
+public class DangNhap extends AppCompatActivity {
 
 
     private EditText edt_phone;
@@ -27,8 +25,8 @@ public class Dangnhap extends AppCompatActivity {
 
 
 
-        edt_phone = findViewById(R.id.edt_phone);
-        edt_pass = findViewById(R.id.edt_pass);
+        edt_phone = findViewById(R.id.ed_username);
+        edt_pass = findViewById(R.id.ed_password);
         tv_forgetpass = findViewById(R.id.tv_forgetpass);
         tv_signup = findViewById(R.id.tv_signup);
 
@@ -44,7 +42,7 @@ public class Dangnhap extends AppCompatActivity {
         });
 
         tv_signup.setOnClickListener(v ->{
-            Intent intent = new Intent(this, Dangnhap.class);
+            Intent intent = new Intent(this, DangNhap.class);
             Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
             startActivity(intent, bundle);
         });

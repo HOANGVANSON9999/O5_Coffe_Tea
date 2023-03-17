@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ImageView img_mhc1 = findViewById(R.id.img_mhc1);
-        TextView tv_mhc = findViewById(R.id.tv_mhc);
         ImageView img_mhc2 = findViewById(R.id.img_mhc2);
         LinearLayout layout_mhc2 = findViewById(R.id.layout_mhc2);
 
@@ -25,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tv_mhc2 = findViewById(R.id.tv_mhc2);
 
         findViewById(R.id.btn_login).setOnClickListener(v ->{
-            Intent intent = new Intent(this, Dangnhap.class);
+            Intent intent = new Intent(this, DangNhap.class);
             Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
             startActivity(intent, bundle);
         });
