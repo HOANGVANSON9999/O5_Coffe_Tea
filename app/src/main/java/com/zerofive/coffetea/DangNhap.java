@@ -25,8 +25,8 @@ public class DangNhap extends AppCompatActivity {
 
 
 
-        edt_phone = findViewById(R.id.ed_username);
-        edt_pass = findViewById(R.id.ed_password);
+        edt_phone = findViewById(R.id.edt_phone);
+        edt_pass = findViewById(R.id.edt_pass);
         tv_forgetpass = findViewById(R.id.tv_forgetpass);
         tv_signup = findViewById(R.id.tv_signup);
 

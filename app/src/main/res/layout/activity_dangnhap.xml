@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Dangnhap"
+    tools:context=".DangNhap"
     android:paddingLeft="30dp"
     android:paddingRight="30dp"
     android:orientation="vertical"
@@ -39,7 +39,7 @@
         android:textColorHint="#2E2E2E"
         android:background="@drawable/border"
         android:padding="15dp"
-        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawableLeft="@drawable/baseline_phone_24"
         android:drawablePadding="15dp"/>
 
     <EditText
