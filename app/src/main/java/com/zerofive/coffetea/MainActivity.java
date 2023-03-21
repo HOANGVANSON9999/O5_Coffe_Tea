@@ -28,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
             Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
             startActivity(intent, bundle);
         });
+        findViewById(R.id.btn_signup).setOnClickListener(v ->{
+            Intent intent = new Intent(this, Dangky.class);
+            Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+            startActivity(intent, bundle);
+        });
 
     }
 }
