@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.util.Patterns;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class DangNhap extends AppCompatActivity {
 
@@ -30,13 +31,12 @@ public class DangNhap extends AppCompatActivity {
 
         findViewById(R.id.btn_login).setOnClickListener(v ->{
             if (edt_phone.getText().toString().equalsIgnoreCase("manage@gmail.com") && edt_pass.getText().toString().equalsIgnoreCase("123") ) {
-                Intent intent = new Intent(this, TrangChuManage.class);
-                Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
-                startActivity(intent, bundle);
+                Toast.makeText(DangNhap.this, "Dang nhap thanh cong", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(DangNhap.this, TrangChuUser.class);
+
+                startActivity(intent);
             } else {
-                Intent intent = new Intent(this, TrangChuUser.class);
-                Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
-                startActivity(intent, bundle);
+                Toast.makeText(DangNhap.this, "Dang nhap that bai", Toast.LENGTH_SHORT).show();
             }
         });
 
