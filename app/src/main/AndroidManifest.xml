@@ -12,6 +12,9 @@
         android:theme="@style/Theme.O5CoffeTea"
         tools:targetApi="31">
         <activity
+            android:name=".DoiMatKhauUser"
+            android:exported="false" />
+        <activity
             android:name=".TrangChuUser"
             android:exported="false" />
         <activity
