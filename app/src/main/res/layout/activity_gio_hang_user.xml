@@ -15,17 +15,17 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/border_radius"
-        android:drawableLeft="@drawable/border_radius"
+        android:drawableRight="@drawable/ic_baseline_search_24"
         android:drawablePadding="10dp"
-        android:hint="Find your Food"
+        android:hint="Find your Coffe"
         android:padding="15dp"
         android:textColorHint="#000000"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="98dp" />
+        tools:layout_editor_absoluteY="65dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout"

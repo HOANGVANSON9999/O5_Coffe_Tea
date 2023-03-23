@@ -75,6 +75,12 @@ public class TrangChuUser extends AppCompatActivity {
             startActivity(intent, bundle);
         });
 
+        findViewById(R.id.img_giohang).setOnClickListener(v ->{
+            Intent intent = new Intent(this, GioHangUser.class);
+            Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+            startActivity(intent, bundle);
+        });
+
 
     }
 

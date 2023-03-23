@@ -11,16 +11,18 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_search"
         android:layout_width="match_parent"
-        android:background="@color/coffe_text_color"
-        android:layout_height="?attr/actionBarSize">
+        android:layout_height="wrap_content"
+        android:background="@color/coffe_text_color">
+
         <EditText
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
             android:id="@+id/edt_searchfood"
             android:layout_width="360dp"
             android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
             android:background="@drawable/border_radius"
-            android:drawableLeft="@drawable/border_radius"
+            android:drawableRight="@drawable/ic_baseline_search_24"
             android:drawablePadding="10dp"
             android:hint="Find your Coffe"
             android:padding="15dp"
