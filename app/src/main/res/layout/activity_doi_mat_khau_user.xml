@@ -18,7 +18,7 @@
             android:layout_height="match_parent"
             android:text="Change password"
             android:layout_gravity="center"
-            android:textColor="#000000"
+            android:textColor="#FF9800"
             android:textSize="25dp"
             android:gravity="center"/>
     </androidx.appcompat.widget.Toolbar>
@@ -29,10 +29,11 @@
         android:layout_marginLeft="20dp"
         android:text="Enter current password"
         android:layout_marginTop="25dp"
-        android:textColor="#2E2E2E"
+        android:textColor="#FF9800"
         android:textSize="20dp"/>
 
     <EditText
+
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:id="@+id/edt_currpass"
@@ -41,7 +42,7 @@
         android:layout_height="60dp"
         android:hint="Current password"
         android:textColorHint="#2E2E2E"
-        android:background="@drawable/border"
+        android:background="@drawable/border_radius"
         android:padding="15dp"
         android:drawableLeft="@drawable/ic_baseline_https_24"
         android:drawablePadding="15dp"
@@ -53,7 +54,7 @@
         android:layout_marginLeft="20dp"
         android:text="Enter new password"
         android:layout_marginTop="30dp"
-        android:textColor="#2E2E2E"
+        android:textColor="#FF9800"
         android:textSize="20dp"/>
 
     <EditText
@@ -65,7 +66,7 @@
         android:layout_height="60dp"
         android:hint="New password"
         android:textColorHint="#2E2E2E"
-        android:background="@drawable/border"
+        android:background="@drawable/border_radius"
         android:padding="15dp"
         android:drawableLeft="@drawable/ic_baseline_https_24"
         android:drawablePadding="15dp"
@@ -80,7 +81,7 @@
         android:layout_height="60dp"
         android:hint="Enter new password again"
         android:textColorHint="#2E2E2E"
-        android:background="@drawable/border"
+        android:background="@drawable/border_radius"
         android:padding="15dp"
         android:drawableLeft="@drawable/ic_baseline_https_24"
         android:drawablePadding="15dp"

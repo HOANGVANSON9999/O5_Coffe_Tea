@@ -21,14 +21,14 @@
         android:text="Welcome Back,"
         android:textSize="32dp"
         android:textStyle="bold"
-        android:textColor="@color/black"/>
+        android:textColor="@color/coffe_button"/>
     <TextView
         android:id="@+id/tv_mhc2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="18dp"
         android:text="It's delicious, it's cheap, it's fast."
-        android:textColor="@color/black"/>
+        android:textColor="@color/coffe_color"/>
 
 
     <EditText
@@ -38,7 +38,7 @@
         android:layout_height="60dp"
         android:hint="Full Name"
         android:textColorHint="#2E2E2E"
-        android:background="@drawable/border"
+        android:background="@drawable/border_radius"
         android:padding="15dp"
         android:drawableLeft="@drawable/ic_baseline_person_24"
         android:drawablePadding="15dp"/>
@@ -50,7 +50,7 @@
         android:layout_height="60dp"
         android:hint="E-Mail"
         android:textColorHint="#2E2E2E"
-        android:background="@drawable/border"
+        android:background="@drawable/border_radius"
         android:padding="15dp"
         android:drawableLeft="@drawable/ic_baseline_email_24"
         android:drawablePadding="15dp" />
@@ -62,7 +62,7 @@
         android:layout_height="60dp"
         android:hint="Phone No"
         android:textColorHint="#2E2E2E"
-        android:background="@drawable/border"
+        android:background="@drawable/border_radius"
         android:padding="15dp"
         android:drawableLeft="@drawable/baseline_phone_24"
         android:drawablePadding="15dp" />
@@ -74,7 +74,7 @@
         android:layout_height="60dp"
         android:hint="Password"
         android:textColorHint="#2E2E2E"
-        android:background="@drawable/border"
+        android:background="@drawable/border_radius"
         android:padding="15dp"
         android:drawableLeft="@drawable/ic_baseline_https_24"
         android:drawablePadding="15dp"
@@ -101,7 +101,7 @@
             android:layout_height="wrap_content"
             android:textSize="18dp"
             android:text="Already have an Account?"
-            android:textColor="@color/black"/>
+            android:textColor="@color/coffe_color"/>
         <TextView
             android:id="@+id/tv_login"
             android:layout_width="wrap_content"
