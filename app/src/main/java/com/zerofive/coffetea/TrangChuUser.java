@@ -80,6 +80,11 @@ public class TrangChuUser extends AppCompatActivity {
             Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
             startActivity(intent, bundle);
         });
+        findViewById(R.id.img_thongtin).setOnClickListener(v ->{
+            Intent intent = new Intent(this, ThongTinUser.class);
+            Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+            startActivity(intent, bundle);
+        });
 
 
     }
