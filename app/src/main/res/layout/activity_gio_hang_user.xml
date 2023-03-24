@@ -14,7 +14,7 @@
         android:layout_height="50dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:background="@drawable/border_radius"
+        android:background ="@drawable/border_radius"
         android:drawableRight="@drawable/ic_baseline_search_24"
         android:drawablePadding="10dp"
         android:hint="Find your Coffe"
