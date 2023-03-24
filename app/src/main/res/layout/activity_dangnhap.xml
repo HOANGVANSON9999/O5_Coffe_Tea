@@ -51,7 +51,7 @@
         android:textColorHint="#2E2E2E"
         android:background="@drawable/border_radius"
         android:padding="15dp"
-        android:drawableLeft="@drawable/ic_baseline_https_24"
+        android:drawableLeft="@drawable/lock"
         android:drawablePadding="15dp"
         android:inputType="textPassword" />
 
