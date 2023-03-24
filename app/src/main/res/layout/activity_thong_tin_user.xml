@@ -25,12 +25,35 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp">
 
+
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="130dp"
+                android:layout_height="230dp"
                 android:background="@drawable/border_radius"
-                android:backgroundTint="#FF9800"/>
+                android:backgroundTint="#FF9800"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="1000dp"
+                    android:src="@drawable/user"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hoàng Văn Sơn | THÀNH VIÊN VIP"
+                    android:layout_marginTop="100dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+
+
+            </LinearLayout>
+
 
 
             <TextView
