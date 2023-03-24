@@ -30,13 +30,13 @@ public class DangNhap extends AppCompatActivity {
         tv_signup = findViewById(R.id.tv_signup);
 
         findViewById(R.id.btn_login).setOnClickListener(v ->{
-            if (edt_phone.getText().toString().equalsIgnoreCase("manage@gmail.com") && edt_pass.getText().toString().equalsIgnoreCase("123") ) {
-                Toast.makeText(DangNhap.this, "Dang nhap thanh cong", Toast.LENGTH_SHORT).show();
+            if (edt_phone.getText().toString().equalsIgnoreCase("123") && edt_pass.getText().toString().equalsIgnoreCase("123") ) {
+                Toast.makeText(DangNhap.this, "Đăng nhập thành công", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(DangNhap.this, TrangChuUser.class);
 
                 startActivity(intent);
             } else {
-                Toast.makeText(DangNhap.this, "Dang nhap that bai", Toast.LENGTH_SHORT).show();
+                Toast.makeText(DangNhap.this, "Đăng nhập thất bại", Toast.LENGTH_SHORT).show();
             }
         });
 
