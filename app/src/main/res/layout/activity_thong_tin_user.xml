@@ -5,314 +5,379 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ThongTinUser"
-    android:background="#F4F3F3">
-
+    android:background="#FF9800">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/border_radius"
+        android:backgroundTint="#FF9800"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/user" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Hoàng Văn Sơn | THÀNH VIÊN VIP"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Thời gian: 04/02/2023"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/boder"
+        android:layout_marginTop="180dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="#fff"
             android:paddingBottom="7dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp">
+                android:orientation="vertical">
 
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:background="@drawable/border_radius"
-                android:backgroundTint="#FF9800"
-                android:orientation="horizontal">
-
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="1000dp"
-                    android:src="@drawable/user"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="20dp"/>
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hoàng Văn Sơn | THÀNH VIÊN VIP"
-                    android:layout_marginTop="100dp"
-                    android:textSize="18dp"
-                    android:textStyle="bold"
-                    android:textColor="#fff"/>
-
-
+                    android:layout_marginTop="10dp"
+                    android:text="Tài khoản"
+                    android:textColor="@color/coffe_text_color"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
-
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tài khoản"
-                android:textSize="20dp"
-                android:layout_marginTop="10dp"
-                android:textStyle="bold"
-                android:textColor="@color/coffe_text_color"/>
         </LinearLayout>
 
 
         <LinearLayout
-
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/border"
+            android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/boder"
             android:orientation="horizontal"
-            >
+            android:padding="6dp"
+            android:weightSum="3">
+
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:src="@drawable/us" />
 
             <TextView
                 android:layout_width="41dp"
-                android:layout_height="41dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="1"
-                android:drawableLeft="@drawable/user"
+                android:layout_weight="2.60"
+
                 android:text="Hồ sơ"
                 android:textColor="@color/coffe_text_color"
-                android:textSize="20dp"
-                />
+                android:textSize="20dp" />
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/next"
-                android:layout_gravity="center"/>
-
+                android:layout_gravity="center"
+                android:layout_weight="0.15"
+                android:src="@drawable/next" />
 
 
         </LinearLayout>
 
         <LinearLayout
 
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/border"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/boder"
             android:orientation="horizontal"
-            >
+            android:padding="6dp"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:src="@drawable/settings" />
 
             <TextView
                 android:layout_width="41dp"
-                android:layout_height="41dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="1"
-                android:drawableLeft="@drawable/settings"
+                android:layout_weight="2.60"
+
                 android:text="Cài đặt"
                 android:textColor="@color/coffe_text_color"
-                android:textSize="20dp"
-                />
+                android:textSize="20dp" />
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/next"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:layout_weight="0.15"
+                android:src="@drawable/next" />
+
 
         </LinearLayout>
+
         <TextView
+            android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tương tác"
-            android:textSize="20dp"
             android:layout_marginTop="10dp"
-            android:textStyle="bold"
-            android:textColor="@color/coffe_text_color"/>
+            android:text="Tương tác"
+            android:textColor="@color/coffe_text_color"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <LinearLayout
 
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/border"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/boder"
             android:orientation="horizontal"
+            android:padding="6dp"
+            android:weightSum="3">
 
-            >
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:src="@drawable/history" />
 
             <TextView
-                android:padding="10dp"
                 android:layout_width="41dp"
-                android:layout_height="41dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="1"
-                android:drawableLeft="@drawable/history"
+                android:layout_weight="2.60"
                 android:text="Hoạt động"
                 android:textColor="@color/coffe_text_color"
-                android:textSize="20dp"
-
-                />
+                android:textSize="20dp" />
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/next"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:layout_weight="0.15"
+                android:src="@drawable/next" />
+
 
         </LinearLayout>
 
+
         <TextView
+            android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:text="Thông tin chung"
+            android:textColor="@color/coffe_text_color"
             android:textSize="20dp"
-            android:layout_marginTop="10dp"
-            android:textStyle="bold"
-            android:textColor="@color/coffe_text_color"/>
+            android:textStyle="bold" />
 
 
         <LinearLayout
-
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/border"
+            android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/boder"
             android:orientation="horizontal"
+            android:padding="6dp"
+            android:weightSum="3">
 
-            >
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:src="@drawable/document" />
 
             <TextView
-                android:padding="10dp"
                 android:layout_width="41dp"
-                android:layout_height="41dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="1"
-                android:drawableLeft="@drawable/document"
-                android:text="CT Thành Viên"
+                android:layout_weight="2.60"
+                android:text="CT thành viên"
                 android:textColor="@color/coffe_text_color"
-                android:textSize="20dp"
-
-                />
+                android:textSize="20dp" />
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/next"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:layout_weight="0.15"
+                android:src="@drawable/next" />
+
 
         </LinearLayout>
 
-        <LinearLayout
 
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/border"
+        <LinearLayout
+            android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/boder"
             android:orientation="horizontal"
+            android:padding="6dp"
+            android:weightSum="3">
 
-            >
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:src="@drawable/document" />
 
             <TextView
-                android:padding="10dp"
                 android:layout_width="41dp"
-                android:layout_height="41dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="1"
-                android:drawableLeft="@drawable/document"
-                android:text="Chính sách/Policles"
-                android:textColor="@color/coffe_text_color"
-                android:textSize="20dp"
+                android:layout_weight="2.60"
 
-                />
+                android:text="Chính sách/Policies"
+                android:textColor="@color/coffe_text_color"
+                android:textSize="20dp" />
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/next"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:layout_weight="0.15"
+                android:src="@drawable/next" />
+
 
         </LinearLayout>
 
-        <LinearLayout
 
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/border"
+        <LinearLayout
+            android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/boder"
             android:orientation="horizontal"
+            android:padding="6dp"
+            android:weightSum="3">
 
-            >
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:src="@drawable/information" />
 
             <TextView
-                android:padding="10dp"
                 android:layout_width="41dp"
-                android:layout_height="41dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="1"
-                android:drawableLeft="@drawable/information"
-                android:text="Giới thiệu về phiên bản ứng dụng"
-                android:textColor="@color/coffe_text_color"
-                android:textSize="20dp"
+                android:layout_weight="2.60"
 
-                />
+                android:text="Giới thiệu về phiên bản "
+                android:textColor="@color/coffe_text_color"
+                android:textSize="20dp" />
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/next"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:layout_weight="0.15"
+                android:src="@drawable/next" />
+
 
         </LinearLayout>
 
         <TextView
+            android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Trung tâm trợ giúp"
-            android:textSize="20dp"
             android:layout_marginTop="10dp"
-            android:textStyle="bold"
-            android:textColor="@color/coffe_text_color"/>
+            android:text="Trung tâm trợ giúp"
+            android:textColor="@color/coffe_text_color"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
 
         <LinearLayout
-
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/border"
+            android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/boder"
             android:orientation="horizontal"
+            android:padding="6dp"
+            android:weightSum="3">
 
-            >
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:src="@drawable/chat" />
 
             <TextView
-                android:padding="10dp"
                 android:layout_width="41dp"
-                android:layout_height="41dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="1"
-                android:drawableLeft="@drawable/chat"
+                android:layout_weight="2.60"
                 android:text="Phản hồi và hỗ trợ"
                 android:textColor="@color/coffe_text_color"
-                android:textSize="20dp"
-
-
-                />
+                android:textSize="20dp" />
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/next"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:layout_weight="0.15"
+                android:src="@drawable/next" />
+
 
         </LinearLayout>
 
@@ -377,6 +442,7 @@
 
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
