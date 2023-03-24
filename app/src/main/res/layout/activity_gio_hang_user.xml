@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".GioHangUser"
-    android:background="@color/coffe_text_color">
+    android:background="@color/coffe_color">
 
 
     <EditText
@@ -15,18 +15,18 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/border_radius"
-        android:drawableRight="@drawable/ic_baseline_search_24"
+        android:drawableRight="@drawable/search"
         android:drawablePadding="10dp"
         android:hint="Find your Coffe"
         android:padding="15dp"
-        android:textColorHint="#000000"
-        android:textStyle="italic"
+        android:textColorHint="#fff"
+        android:textStyle="normal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.117"
-        tools:ignore="MissingConstraints" />
+        />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout"

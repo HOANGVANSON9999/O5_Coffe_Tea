@@ -65,11 +65,11 @@ public class Dangky extends AppCompatActivity {
                 if (edt_phone.getText().toString().equals("a") && edt_email.getText().toString().equals("b") &&
                         edt_name.getText().toString().equals("c") &&
                         edt_pass.getText().toString().equals("d")) {
-                    Toast.makeText(Dangky.this, "Thêm thành công", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Dangky.this, "Đăng ký thành công", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(Dangky.this, DangNhap.class);
                     startActivity(intent);
                 } else {
-                    Toast.makeText(Dangky.this, "Thêm thất bại", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Dangky.this, "Đăng ký thất bại", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -91,7 +91,7 @@ public class Dangky extends AppCompatActivity {
         String val = edt_name.getText().toString().trim();
 
         if(val.isEmpty()){
-            edt_name.setError("Khong duoc de trong");
+            edt_name.setError("Không được để chống");
             return false;
         }else {
             edt_name.setError(null);
@@ -107,7 +107,7 @@ public class Dangky extends AppCompatActivity {
         String checkspaces = "[a-zA-Z0-9._-]+@[a-z]+.+[a-z]+";
 
         if(val.isEmpty()){
-            edt_email.setError("khong duoc de trong");
+            edt_email.setError("Không được để chống");
             return false;
         }else if(!val.matches(checkspaces)){
             edt_email.setError("Email không hợp lệ!");
@@ -125,7 +125,7 @@ public class Dangky extends AppCompatActivity {
 
 
         if(val.isEmpty()){
-            edt_phone.setError("khong duoc de trong");
+            edt_phone.setError("Không được để chống");
             return false;
         }else if(val.length() != 10){
             edt_phone.setError("Số điện thoại không hợp lệ!");
@@ -142,7 +142,7 @@ public class Dangky extends AppCompatActivity {
         String val = edt_pass.getText().toString().trim();
 
         if(val.isEmpty()){
-            edt_pass.setError("khong duoc de trong");
+            edt_pass.setError("Không được để chống");
             return false;
         }else if(!PASSWORD_PATTERN.matcher(val).matches()){
             edt_pass.setError("Mật khẩu ít nhất 6 ký tự!");

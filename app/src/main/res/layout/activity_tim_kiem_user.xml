@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".TimKiemUser"
     android:orientation="vertical"
-    android:background="@color/coffe_text_color">
+    android:background="@color/coffe_color">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/coffe_text_color">
+        android:background="@color/coffe_color">
 
         <EditText
             android:id="@+id/edt_searchfood"
@@ -22,12 +22,12 @@
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/border_radius"
-            android:drawableRight="@drawable/ic_baseline_search_24"
+            android:drawableRight="@drawable/search"
             android:drawablePadding="10dp"
             android:hint="Find your Coffe"
             android:padding="15dp"
-            android:textColorHint="#000000"
-            android:textStyle="italic"
+            android:textColorHint="#fff"
+            android:textStyle="normal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textView" />
@@ -39,7 +39,7 @@
         android:layout_marginTop="30dp"
         android:text="Category"
         android:layout_marginLeft="20dp"
-        android:textColor="#000000"
+        android:textColor="@color/coffe_text_color"
         android:textSize="20dp" />
 
     <androidx.recyclerview.widget.RecyclerView
@@ -58,7 +58,7 @@
         android:layout_marginTop="20dp"
         android:text="Popular search"
         android:layout_marginLeft="20dp"
-        android:textColor="#000000"
+        android:textColor="@color/coffe_text_color"
         android:textSize="20dp" />
 
     <androidx.recyclerview.widget.RecyclerView
