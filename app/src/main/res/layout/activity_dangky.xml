@@ -8,7 +8,7 @@
     android:paddingLeft="30dp"
     android:paddingRight="30dp"
     android:orientation="vertical"
-    android:background="@color/coffe_text_color">
+    android:background="@drawable/bod">
 
     <ImageView
         android:layout_marginTop="30dp"
@@ -21,14 +21,14 @@
         android:text="Welcome Back,"
         android:textSize="32dp"
         android:textStyle="bold"
-        android:textColor="@color/coffe_button"/>
+        android:textColor="@color/coffe_text_color"/>
     <TextView
         android:id="@+id/tv_mhc2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="18dp"
         android:text="It's delicious, it's cheap, it's fast."
-        android:textColor="@color/coffe_color"/>
+        android:textColor="@color/coffe_text_color"/>
 
 
     <EditText

@@ -15,6 +15,8 @@ public class DangNhap extends AppCompatActivity {
 
     private EditText edt_phone;
     private EditText edt_pass;
+
+
     private TextView tv_forgetpass;
     private TextView tv_signup;
 
