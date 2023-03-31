@@ -51,9 +51,9 @@
         android:layout_marginTop="10dp"
         android:layout_height="60dp"
         android:textColorHint="#fff"
-        android:background="@drawable/border_radius"
+        android:background="@drawable/white_radius"
         android:padding="15dp"
-        android:drawableLeft="@drawable/border_radius"
+        android:drawableLeft="@drawable/white_radius"
         android:drawablePadding="15dp"
         android:inputType="textPassword" />
 
@@ -75,9 +75,9 @@
         android:layout_height="60dp"
 
         android:textColorHint="#fff"
-        android:background="@drawable/border_radius"
+        android:background="@drawable/white_radius"
         android:padding="15dp"
-        android:drawableLeft="@drawable/border_radius"
+        android:drawableLeft="@drawable/white_radius"
         android:drawablePadding="15dp"
         android:inputType="textPassword" />
 
@@ -97,9 +97,9 @@
         android:layout_marginTop="15dp"
         android:layout_height="60dp"
         android:textColorHint="#fff"
-        android:background="@drawable/border_radius"
+        android:background="@drawable/white_radius"
         android:padding="15dp"
-        android:drawableLeft="@drawable/border_radius"
+        android:drawableLeft="@drawable/white_radius"
         android:drawablePadding="15dp"
         android:inputType="textPassword" />
 
