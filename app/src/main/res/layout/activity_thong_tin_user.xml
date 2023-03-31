@@ -112,6 +112,7 @@
                 android:textSize="20dp" />
 
             <ImageView
+                android:id="@+id/img_hoso"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center"
@@ -150,6 +151,7 @@
                 android:textSize="20dp" />
 
             <ImageView
+                android:id="@+id/img_caidat"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center"

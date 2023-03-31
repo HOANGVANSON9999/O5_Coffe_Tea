@@ -1,10 +1,10 @@
 package com.zerofive.coffetea;
 
-import static com.zerofive.coffetea.R.id.toolba_pass;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.app.ActivityOptions;
+import android.content.Intent;
 import android.os.Bundle;
 
 public class DoiMatKhauUser extends AppCompatActivity {
@@ -13,10 +13,13 @@ public class DoiMatKhauUser extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doi_mat_khau_user);
-
-       Toolbar toolbar = (Toolbar)findViewById(toolba_pass);
-        setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
+
+        findViewById(R.id.img_back1).setOnClickListener(v -> {
+            Intent intent = new Intent(this, CaiDatUser.class);
+            Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+            startActivity(intent, bundle);
+        });
     }
 }

@@ -29,5 +29,11 @@ public class ThongTinUser extends AppCompatActivity {
             Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
             startActivity(intent, bundle);
         });
+        findViewById(R.id.img_caidat).setOnClickListener(v -> {
+            Intent intent = new Intent(this, CaiDatUser.class);
+            Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+            startActivity(intent, bundle);
+        });
+
     }
 }
