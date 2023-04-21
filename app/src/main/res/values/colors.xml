@@ -10,5 +10,6 @@
     <color name="coffe_color">#E6C8B0</color>
     <color name="coffe_text_color">#7E3203</color>
     <color name="coffe_button">#FFAD25</color>
+    <color name="colorPrimary">#b0c4de</color>
 
 </resources>
