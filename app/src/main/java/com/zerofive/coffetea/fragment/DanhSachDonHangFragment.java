@@ -13,10 +13,10 @@ import androidx.viewpager2.widget.ViewPager2;
 
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
-import com.nhomduan.quanlydathang_admin.R;
-import com.nhomduan.quanlydathang_admin.activities.MainActivity;
-import com.nhomduan.quanlydathang_admin.adapter.DanhSachDonHangPagerAdapter;
-import com.nhomduan.quanlydathang_admin.model.TrangThai;
+import com.zerofive.coffetea.R;
+import com.zerofive.coffetea.MainActivity;
+import com.zerofive.coffetea.adapter.DanhSachDonHangPagerAdapter;
+import com.zerofive.coffetea.model.TrangThai;
 
 
 public class DanhSachDonHangFragment extends Fragment {

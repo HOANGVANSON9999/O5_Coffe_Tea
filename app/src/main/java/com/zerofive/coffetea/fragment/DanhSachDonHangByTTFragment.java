@@ -19,7 +19,7 @@ import com.zerofive.coffetea.dao.OrderDao;
 import com.zerofive.coffetea.interface_.IAfterGetAllObject;
 import com.zerofive.coffetea.interface_.OnClickItem;
 import com.zerofive.coffetea.model.DonHang;
-import com.zerofive.coffetea.adapter.model.TrangThai;
+import com.zerofive.coffetea.model.TrangThai;
 
 import java.util.ArrayList;
 import java.util.Collections;
