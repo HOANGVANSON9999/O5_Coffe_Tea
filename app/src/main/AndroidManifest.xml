@@ -12,39 +12,6 @@
         android:theme="@style/Theme.O5CoffeTea"
         tools:targetApi="31">
         <activity
-            android:name=".CaiDatUser"
-            android:exported="false" />
-        <activity
-            android:name=".ThongTinUser"
-            android:exported="false" />
-        <activity
-            android:name=".GioHangUser"
-            android:exported="false" />
-        <activity
-            android:name=".DoiMatKhauUser"
-            android:exported="false" />
-        <activity
-            android:name=".TrangChuUser"
-            android:exported="false" />
-        <activity
-            android:name=".TrangChuManage"
-            android:exported="false" />
-        <activity
-            android:name=".Dangky"
-            android:exported="false" />
-        <activity
-            android:name=".SplashActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".DangNhap"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true" />
     </application>
