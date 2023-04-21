@@ -13,4 +13,13 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="navigationTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+    </style>
+
+    <!-- Popup style -->
+    <style name="PopUpActivity" parent="Theme.MaterialComponents.Light.Dialog">
+    </style>
 </resources>
