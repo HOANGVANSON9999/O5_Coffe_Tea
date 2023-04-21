@@ -17,8 +17,8 @@ import com.zerofive.coffetea.R;
 import com.zerofive.coffetea.adapter.DonHangAdapter;
 import com.zerofive.coffetea.dao.OrderDao;
 import com.zerofive.coffetea.interface_.IAfterGetAllObject;
-import com.zerofive.coffetea.adapter.interface_.OnClickItem;
-import com.zerofive.coffetea.adapter.model.DonHang;
+import com.zerofive.coffetea.interface_.OnClickItem;
+import com.zerofive.coffetea.model.DonHang;
 import com.zerofive.coffetea.adapter.model.TrangThai;
 
 import java.util.ArrayList;
