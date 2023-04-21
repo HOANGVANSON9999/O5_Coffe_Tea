@@ -7,8 +7,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import com.nhomduan.quanlydathang_admin.fragment.DanhSachDonHangByTTFragment;
-import com.nhomduan.quanlydathang_admin.model.TrangThai;
+import com.zerofive.coffetea.fragment.DanhSachDonHangByTTFragment;
+import com.zerofive.coffetea.model.TrangThai;
 
 public class DanhSachDonHangPagerAdapter extends FragmentStateAdapter {
 
