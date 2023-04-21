@@ -7,8 +7,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import com.nhomduan.quanlydathang_admin.fragment.DanhSachSanPhamByLoaiSPFragment;
-import com.nhomduan.quanlydathang_admin.model.LoaiSP;
+import com.zerofive.coffetea.fragment.DanhSachSanPhamByLoaiSPFragment;
+import com.zerofive.coffetea.model.LoaiSP;
 
 import java.io.Serializable;
 import java.util.List;

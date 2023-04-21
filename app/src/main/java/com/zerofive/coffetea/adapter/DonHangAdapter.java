@@ -11,11 +11,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.nhomduan.quanlydathang_admin.R;
-import com.nhomduan.quanlydathang_admin.Utils.OverUtils;
-import com.nhomduan.quanlydathang_admin.interface_.OnClickItem;
-import com.nhomduan.quanlydathang_admin.model.DonHang;
-import com.nhomduan.quanlydathang_admin.model.DonHangChiTiet;
+import com.zerofive.coffetea.R;
+import com.zerofive.coffetea.Utils.OverUtils;
+import com.zerofive.coffetea.interface_.OnClickItem;
+import com.zerofive.coffetea.model.DonHang;
+import com.zerofive.coffetea.model.DonHangChiTiet;
 
 import java.util.List;
 

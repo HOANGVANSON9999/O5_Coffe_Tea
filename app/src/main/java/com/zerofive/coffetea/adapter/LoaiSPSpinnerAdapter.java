@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.nhomduan.quanlydathang_admin.R;
-import com.nhomduan.quanlydathang_admin.model.LoaiSP;
+import com.zerofive.coffetea.R;
+import com.zerofive.coffetea.model.LoaiSP;
 
 import java.util.List;
 

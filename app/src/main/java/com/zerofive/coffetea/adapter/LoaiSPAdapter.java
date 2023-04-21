@@ -10,11 +10,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.chauthai.swipereveallayout.SwipeRevealLayout;
-import com.chauthai.swipereveallayout.ViewBinderHelper;
-import com.nhomduan.quanlydathang_admin.R;
-import com.nhomduan.quanlydathang_admin.interface_.OnClickItem;
-import com.nhomduan.quanlydathang_admin.model.LoaiSP;
+import com.zerofive.coffetea.swipereveallayout.SwipeRevealLayout;
+import com.zerofive.coffetea.swipereveallayout.ViewBinderHelper;
+import com.zerofive.coffetea.R;
+import com.zerofive.coffetea.interface_.OnClickItem;
+import com.zerofive.coffetea.model.LoaiSP;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
