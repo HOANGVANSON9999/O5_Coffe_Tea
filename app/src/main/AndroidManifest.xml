@@ -14,62 +14,45 @@
         android:theme="@style/Theme.O5CoffeTea"
         tools:targetApi="31">
         <activity
-            android:name=".ThongtinActivity"
+            android:name=".Activities.ThongtinActivity"
             android:exported="false" />
         <activity
-            android:name=".StaticThongKe"
+            android:name=".Activityprofile"
             android:exported="false" />
+        <activity android:name=".Activities.StaticThongKe" />
+        <activity android:name=".Activities.DetailStatisticActivity" />
+        <activity android:name=".Activities.AddStaffActivity" />
         <activity
-            android:name=".Register2ndActivity"
-            android:exported="false" />
+            android:name=".Activities.EditTableActivity"
+            android:label="Sửa bàn ăn"
+            android:theme="@style/PopUpActivity" />
+        <activity android:name=".Activities.PaymentActivity" />
         <activity
-            android:name=".PaymentActivity"
-            android:exported="false" />
+            android:name=".Activities.AmountMenuActivity"
+            android:label="số lượng món"
+            android:theme="@style/PopUpActivity" />
+        <activity android:name=".Activities.AddCategoryActivity" />
+        <activity android:name=".Activities.AddMenuActivity" />
         <activity
-            android:name=".EditTableActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DetailStatisticActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AmountMenuActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AddTableActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AddStaffActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AddMenuActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AddCategoryActivity"
-            android:exported="false" />
-        <activity
-            android:name=".HomeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".WelcomeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SplashActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".Activities.AddTableActivity"
+            android:label="@string/addTable"
+            android:theme="@style/PopUpActivity" />
+        <activity android:name=".Activities.HomeActivity" />
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.Register2ndActivity" />
+        <activity android:name=".Activities.WelcomeActivity" />
+        <activity android:name=".Activities.RegisterActivity" />
+        <activity android:name=".Activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
