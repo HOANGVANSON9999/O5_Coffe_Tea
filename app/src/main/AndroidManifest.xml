@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -15,50 +15,18 @@
         tools:targetApi="31">
         <activity
             android:name=".FlashActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Activities.ThongtinActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Activityprofile"
-            android:exported="false" />
-        <activity android:name=".Activities.StaticThongKe" />
-        <activity android:name=".Activities.DetailStatisticActivity" />
-        <activity android:name=".Activities.AddStaffActivity" />
-        <activity
-            android:name=".Activities.EditTableActivity"
-            android:label="Sửa bàn ăn"
-            android:theme="@style/PopUpActivity" />
-        <activity android:name=".Activities.PaymentActivity" />
-        <activity
-            android:name=".Activities.AmountMenuActivity"
-            android:label="số lượng món"
-            android:theme="@style/PopUpActivity" />
-        <activity android:name=".Activities.AddCategoryActivity" />
-        <activity android:name=".Activities.AddMenuActivity" />
-        <activity
-            android:name=".Activities.AddTableActivity"
-            android:label="@string/addTable"
-            android:theme="@style/PopUpActivity" />
-        <activity android:name=".Activities.HomeActivity" />
-        <activity android:name=".Activities.LoginActivity" />
-        <activity android:name=".Activities.Register2ndActivity" />
-        <activity android:name=".Activities.WelcomeActivity" />
-        <activity android:name=".Activities.RegisterActivity" />
-        <activity android:name=".Activities.SplashActivity">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" >
 
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
+        </activity>
+
     </application>
-
 </manifest>
