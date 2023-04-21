@@ -1,6 +1,6 @@
 package com.zerofive.coffetea.fragment;
 
-import static com.nhomduan.quanlydathang_admin.Utils.OverUtils.ERROR_MESSAGE;
+import static com.zerofive.coffetea.Utils.OverUtils.ERROR_MESSAGE;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -18,13 +18,13 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 import com.google.firebase.database.DatabaseError;
-import com.nhomduan.quanlydathang_admin.R;
-import com.nhomduan.quanlydathang_admin.Utils.OverUtils;
-import com.nhomduan.quanlydathang_admin.activities.MainActivity;
-import com.nhomduan.quanlydathang_admin.adapter.DanhSachSanPhamPagerAdapter;
-import com.nhomduan.quanlydathang_admin.dao.ProductTypeDao;
-import com.nhomduan.quanlydathang_admin.interface_.IAfterGetAllObject;
-import com.nhomduan.quanlydathang_admin.model.LoaiSP;
+import com.zerofive.coffetea.R;
+import com.zerofive.coffetea.Utils.OverUtils;
+import com.zerofive.coffetea.MainActivity;
+import com.zerofive.coffetea.adapter.DanhSachSanPhamPagerAdapter;
+import com.zerofive.coffetea.dao.ProductTypeDao;
+import com.zerofive.coffetea.interface_.IAfterGetAllObject;
+import com.zerofive.coffetea.model.LoaiSP;
 
 import java.util.List;
 

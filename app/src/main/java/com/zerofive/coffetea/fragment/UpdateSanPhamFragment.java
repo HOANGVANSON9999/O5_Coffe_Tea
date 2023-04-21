@@ -1,7 +1,7 @@
 package com.zerofive.coffetea.fragment;
 
-import static com.nhomduan.quanlydathang_admin.Utils.OverUtils.ERROR_MESSAGE;
-import static com.nhomduan.quanlydathang_admin.Utils.OverUtils.getExtensionFile;
+import static com.zerofive.coffetea.Utils.OverUtils.ERROR_MESSAGE;
+import static com.zerofive.coffetea.Utils.OverUtils.getExtensionFile;
 
 import android.app.ProgressDialog;
 import android.net.Uri;
@@ -26,16 +26,16 @@ import androidx.fragment.app.Fragment;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
-import com.nhomduan.quanlydathang_admin.R;
-import com.nhomduan.quanlydathang_admin.Utils.OverUtils;
-import com.nhomduan.quanlydathang_admin.adapter.LoaiSPSpinnerAdapter;
-import com.nhomduan.quanlydathang_admin.dao.ProductDao;
-import com.nhomduan.quanlydathang_admin.dao.ProductTypeDao;
-import com.nhomduan.quanlydathang_admin.dialog.SingleChoiceDialog;
-import com.nhomduan.quanlydathang_admin.interface_.IAfterGetAllObject;
-import com.nhomduan.quanlydathang_admin.interface_.IAfterInsertObject;
-import com.nhomduan.quanlydathang_admin.model.LoaiSP;
-import com.nhomduan.quanlydathang_admin.model.Product;
+import com.zerofive.coffetea.R;
+import com.zerofive.coffetea.Utils.OverUtils;
+import com.zerofive.coffetea.adapter.LoaiSPSpinnerAdapter;
+import com.zerofive.coffetea.dao.ProductDao;
+import com.zerofive.coffetea.dao.ProductTypeDao;
+import com.zerofive.coffetea.dialog.SingleChoiceDialog;
+import com.zerofive.coffetea.interface_.IAfterGetAllObject;
+import com.zerofive.coffetea.interface_.IAfterInsertObject;
+import com.zerofive.coffetea.model.LoaiSP;
+import com.zerofive.coffetea.model.Product;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
